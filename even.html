@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
+
 <body>
-  
+
   <script>
 
-    let num = parseInt(prompt('Pick a number'))
+    for (let i = 0; i < 6; i++) {
 
-    if (num % 2 === 0) {
-      alert('Yes the number is even')
-    } else {
-      alert('No the number is not even')
+      let num = parseInt(prompt('Pick a number'))
+
+      alert(num % 2 === 0 ? 'Yes the number is even' : 'No the number is not even')
     }
-
   </script>
 </body>
+
 </html>
